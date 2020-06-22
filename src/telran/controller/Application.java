@@ -44,7 +44,7 @@ public class Application {
     public static List<Address> getAddress(List<Person> persons) {
         List<Address> addressByPerson = new ArrayList<>();
         for (int i = 0; i < persons.size(); i++) {
-            if (persons.get(i).getName().equals(persons)) ;
+            if (persons.get(i).equals(persons)) ;
             addressByPerson.add(persons.get(i).getAddress());
         }
         return addressByPerson;
